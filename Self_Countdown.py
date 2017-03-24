@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- = Py3.6's Basic encoding is utf-8, so.. No need.
 
 from time import *				# module for using sleep()
-n=1
+n=1								# n, only for outside, GLOBAL: use In & outside
 def countdown(n):
 	if n < 0:
 		sleep(1)				# wait 1 sec.
