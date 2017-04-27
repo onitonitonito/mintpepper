@@ -1,17 +1,10 @@
 # Python TEST Script = 2017.3/1(Wed)
-#
-a = bool()
+a = bool()      # bool(None=0) = False
+b = bool(1)     # bool(1) = True
+c = bool(0)     # bool(0) = False
+
 print ("a = ", a, end=" \n" )
 favorite =["Apple","Pizza","PASTA","P-P-A-P","Freak","Undertale"]
-
-'''
-print ("Hello Python World!! \n-----------------------\n")
-for i in range(0,6):
-    print(end=" \t")
-    print(i,end=". ")
-    print(favorite[i])
-'''
-# Using define function
 
 def listUP_favorites():
     print ("Hello Python World!! \n-----------------------\n\
